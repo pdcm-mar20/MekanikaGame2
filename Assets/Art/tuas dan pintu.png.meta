@@ -14,6 +14,27 @@ TextureImporter:
   - first:
       213: 4979728174425031984
     second: horz door
+  - first:
+      213: 8142966252383073037
+    second: tuas dan pintu_4
+  - first:
+      213: 1371376791044007126
+    second: tuas dan pintu_5
+  - first:
+      213: -6114656809493262556
+    second: tuas dan pintu_6
+  - first:
+      213: -7392621915241683238
+    second: tuas dan pintu_0
+  - first:
+      213: -2223413621528723878
+    second: tuas dan pintu_1
+  - first:
+      213: 3615956958420488516
+    second: tuas dan pintu_2
+  - first:
+      213: 6706921644965692545
+    second: tuas dan pintu_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -95,17 +116,41 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: open gate
+      name: tuas dan pintu_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 110
-        width: 309
-        height: 218
+        y: 113
+        width: 306
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -113,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81aebf91015e10120800000000000000
-      internalID: 2378433935546509848
+      spriteID: ad6604f2981286990800000000000000
+      internalID: -7392621915241683238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: close gate
+      name: tuas dan pintu_1
       rect:
         serializedVersion: 2
-        x: 451
-        y: 106
-        width: 310
-        height: 219
+        x: 335
+        y: 111
+        width: 88
+        height: 385
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 532954bdf3d57f480800000000000000
-      internalID: -8865514812612439499
+      spriteID: a5ef3046719d421e0800000000000000
+      internalID: -2223413621528723878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: vert door
+      name: tuas dan pintu_2
       rect:
         serializedVersion: 2
-        x: 330
-        y: 109
-        width: 99
-        height: 387
+        x: 455
+        y: 113
+        width: 306
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91a5f20e16115fd60800000000000000
-      internalID: 7923258231498955289
+      spriteID: 44151cd02b57e2230800000000000000
+      internalID: 3615956958420488516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: horz door
+      name: tuas dan pintu_3
       rect:
         serializedVersion: 2
-        x: 188
+        x: 195
         y: 0
-        width: 398
-        height: 95
+        width: 384
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 035cb92146c8b1540800000000000000
-      internalID: 4979728174425031984
+      spriteID: 1840f8883b5c31d50800000000000000
+      internalID: 6706921644965692545
       vertices: []
       indices: 
       edges: []
