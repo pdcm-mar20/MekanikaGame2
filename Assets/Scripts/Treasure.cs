@@ -5,10 +5,12 @@ using UnityEngine;
 public class Treasure : MonoBehaviour
 {
     public GameObject Complete;
+    public GameObject conditionPanel;
     // Start is called before the first frame update
     void Start()
     {
         Complete.SetActive(false);
+        conditionPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -22,6 +24,8 @@ public class Treasure : MonoBehaviour
         {
             TreasureText.treasure += 1;
             Complete.SetActive(true);
+            conditionPanel.SetActive(true);
+            Time.timeScale = 0f;
             Destroy(gameObject);
         }
     }
